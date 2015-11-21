@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chengsu Chen's Portfolio</title>
+
+    
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
+
+    <!-- Add ui-router library here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+    <!-- Custom code -->
+    <script src="app.js"></script>
+    <link href = "app.css" rel="stylesheet" type = "text/css"/>
+    
+  </head>
+  <body>
+    <div>
+      <header>
+        <!-- Create links to different sections -->
+          <h1>Chengsu Chen</h1>        
+          <a ui-sref="work"class="btn btn-default">Work</a>
+          <a ui-sref="about"class="btn btn-default">About</a>
+          <a ui-sref="resume"class="btn btn-default">Resume</a>
+  		</header>
+        
+
+      <div class="container">
+        <!-- This is where your content will display -->
+        <div ui-view></div>
+
+      </div>
+
+      <footer>
+           <p style="float:left;margin-left:40px;">&copy; 2015 Chengsu Chen</p>
+              <p style="float:right;margin-right:40px;">
+              <a href="http://www.hello-chengsuchen.com" title="Website">
+                <img src ="http://thehistoryoftheinternet.bhj.me/images/icons/www.png" style="width:50px;height:50px;"></img>
+              </a> 
+                <a href="http://www.facebook.com/chengsuchen" title="Facebook">
+                    <img src ="http://i.stack.imgur.com/kNPKJ.gif" style="width:42px;height:42px;"></img>
+                </a> 
+                <a href="http://www.twitter.com/chengsuchen" title="Twitter"><img src ="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-512.png" style="width:39px;height:39px;"></img>
+                </a> 
+                <a href="http://www.linkedin.com/in/chengsuchen" title="Linkedin"><img src ="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png" style="width:39px;height:39px;"></img>
+                </a> 
+            </p>
+        </footer>
+    </div>
+  </body>
+</html>
