@@ -1,6 +1,6 @@
 [{"Project":"Spotify Web App","Type":"Web Dev","Description":"A web app designed and developed for INFO 343 - Web Development, integrating Spotify's API","Link":"http://students.washington.edu/cchen94/info343/SChallenge/spotify/main.html","Image":"thumbnails/spotify.png"},
 {"Project":"Police Shootings","Type":"Data Visualization","Description":"A data visualization project designed and developed to map police shootings in WA. We used Leaflet.js (INFO 343)","Link":"http://students.washington.edu/cchen94/info343/police-shooting/","Image":"thumbnails/police.png"},
 {"Project":"Wander","Type":"Mobile Design","Description":"A mobile app concept designed for travelers","Link":"http://www.hello-chengsuchen.com/#/wander/","Image":"thumbnails/wander.png"},
-{"Project":"KiteOS","Type":"UX Design","Description":"A mobile operating system concept","Link":"http://www.hello-chengsuchen.com/#/kiteos/","Image":"thumbnails/Kiteos.png"},
+{"Project":"KiteOS","Type":"UX Design","Description":"A mobile operating system concept","Link":"http://www.hello-chengsuchen.com/#/kiteos/","Image":"thumbnails/kiteos.png"},
 {"Project":"Nutri","Type":"Mobile Design","Description":"A mobile app designed for INFO 200 - Intellectual Foundations","Link":"http://invis.io/WA35B15DJ","Image":"thumbnails/nutri.jpg"},
 {"Project":"RUN DUBS","Type":"UX Design","Description":"My team's entry for the 2015 Dubhacks Hackathon utilizing Google Maps API","Link":"http://rundubs.com/","Image":"thumbnails/runDubs.png"}]

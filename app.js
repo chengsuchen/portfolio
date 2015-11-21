@@ -39,6 +39,6 @@ myApp.config(function($stateProvider) {
 		})
 
 		myApp.controller('ResumeController', function($scope){
-			$scope.contact = "info"
+			$scope.resume = "info"
 		})
 
